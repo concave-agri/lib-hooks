@@ -1,0 +1,13 @@
+{
+    "extends": "../../tsconfig.settings.json",
+    "compilerOptions": {
+      "allowJs": true,
+      "noImplicitAny": false, /*never ever do this in porject config*/
+      "outDir": "dist",
+      "rootDir": "src",
+      "baseUrl": "src",
+      "lib": ["ES2018"],
+      "types": []
+    },
+    "include": ["src"]
+}  

@@ -1,0 +1,21 @@
+{
+  "name": "@agri/lib-hooks",
+  "version": "1.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint src --ext js,ts",
+    "fix": "npm run lint -- --fix",
+    "build": "tsc -b .",
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://concave-agri@dev.azure.com/concave-agri/concave-agri/_git/lint-poc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
