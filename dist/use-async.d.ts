@@ -3,12 +3,12 @@ declare function useAsync(initialState: any): {
     isLoading: boolean;
     isError: boolean;
     isSuccess: boolean;
-    setData: (data: any) => any;
-    setError: (error: any) => any;
+    setData: any;
+    setError: any;
     error: any;
     status: any;
     data: any;
-    run: (promise: any) => any;
-    reset: () => any;
+    run: any;
+    reset: any;
 };
 export { useAsync };

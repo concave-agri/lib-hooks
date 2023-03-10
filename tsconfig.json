@@ -1,13 +1,26 @@
 {
-    "extends": "../../tsconfig.settings.json",
-    "compilerOptions": {
-      "allowJs": true,
-      "noImplicitAny": false, /*never ever do this in porject config*/
-      "outDir": "dist",
-      "rootDir": "src",
-      "baseUrl": "src",
-      "lib": ["ES2018"],
-      "types": []
-    },
-    "include": ["src"]
-}  
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2018",
+
+    "allowJs": true,
+    "noImplicitAny": false /*never ever do this in porject config*/,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "lib": ["ES2018"],
+    "types": []
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
